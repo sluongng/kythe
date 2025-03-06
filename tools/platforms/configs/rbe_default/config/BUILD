@@ -43,9 +43,9 @@ platform(
     ],
     exec_properties = {
         # cd tools/docker && \
-        #   docker build -t ghcr.io/sluongng/kythe:20.04 . && \
+        #   docker build --platform=linux/amd64 -t ghcr.io/sluongng/kythe:20.04 . && \
         #   docker push ghcr.io/sluongng/kythe:20.04
-        "container-image": "docker://ghcr.io/sluongng/kythe:20.04@sha256:3bdaef8649058bf4459c5a8f7426c3f939abee8b95dc7beb82951b5d17f3bb78",
+        "container-image": "docker://ghcr.io/sluongng/kythe:20.04@sha256:12075e53313af488dc3d5fb9922b21e37872bdfb03a6359c1bebb0f14eac7b52",
         "OSFamily": "Linux",
     },
 )
